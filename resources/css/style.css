@@ -87,6 +87,11 @@ p {
 	font-style: normal;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 @keyframes rotate {
 	0% { transform: rotate(0deg) }
 	100% { transform: rotate(360deg) }
@@ -108,7 +113,7 @@ p {
 
 .logo-bg {
 	opacity: 25%;
-	width: 90%;
+	width: 100%;
 	z-index: -3;
 	position: absolute;
 	transform: rotate(325deg);
@@ -119,7 +124,7 @@ p {
 	animation-timing-function: linear;
 	filter: blur(3px);
 	top: 200px;
-	left: 0;
+	left: -100px;
 } 
 
 .gradient {
