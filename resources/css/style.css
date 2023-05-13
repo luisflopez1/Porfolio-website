@@ -170,7 +170,6 @@ h3 {
 
 .about {
 	height: 460px;
-	padding-left: 35px;
 	font-family: "eurostile", sans-serif;
 	font-weight: 200;
 	font-style: normal;
@@ -191,7 +190,8 @@ h3 {
 }
 
 .about p {
-	width: 90%;
+	width: 75%;
+	margin: 0 auto;
 }
 
 footer {
