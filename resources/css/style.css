@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	width: 100%;
+	overflow: hidden;
 }
 
 header {
@@ -126,12 +126,10 @@ h3 {
   0%, 50%, 100% {
     transform: translateY(0) rotate(45deg);
   }
-  25% {
+  10%, 40%, 60%, 90% {
     transform: translateY(-10px) rotate(45deg);
   }
-  75% {
-    transform: translateY(-10px) rotate(45deg);
-  }
+  
 }
 
 .down-arrow {
@@ -142,7 +140,7 @@ h3 {
   	width: 5px;
   	height: 5px;
   	margin: auto;
-  	animation: bounce 8s infinite;
+  	animation: bounce ease 5s infinite;
 
 
 }
