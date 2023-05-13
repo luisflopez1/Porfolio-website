@@ -50,6 +50,8 @@ li {
 }
 
 h1 {
+	position: sticky;
+	top: 5px;
 	font-size: 28px;
 	margin-top: 0;
 	padding-top: 40px;
@@ -69,6 +71,20 @@ h2 {
 
 h3 {
 	font-size: 38px;
+}
+
+h4 {
+	font-family: "eurostile", sans-serif;
+	font-weight: 200;
+	margin-top: 15px;
+	padding-left: 15px;
+	text-shadow: 5px 5px 5px #1f1f1f;
+}
+
+p {
+	font-family: "eurostile", sans-serif;
+	font-weight: 200;
+	font-style: normal;
 }
 
 @keyframes rotate {
@@ -92,7 +108,7 @@ h3 {
 
 .logo-bg {
 	opacity: 25%;
-	width: 100%;
+	width: 90%;
 	z-index: -3;
 	position: absolute;
 	transform: rotate(325deg);
@@ -121,6 +137,8 @@ h3 {
 	padding-top: 20px;
 	padding-bottom: 40px;
 	color: #505050;
+	position: relative;
+	z-index: -2;
 
 }
 
@@ -171,23 +189,17 @@ h3 {
 }
 
 .project-card {
+	color: white;
 	height: 400px;
 	width: 80%;
-	background-color: #636363;
-	opacity: 30%;
+	background-color: #2c2c2c;
 	border-radius: 10px;
 	margin: 40px auto 40px;
 	box-shadow: 5px 5px 5px black;
-	border-top: 1px solid white;
-	border-left: 1px solid white;
+	border-top: 1px solid #5d5d5d;
+	border-left: 1px solid #5d5d5d;
 }
 
-.about {
-	font-family: "eurostile", sans-serif;
-	font-weight: 200;
-	font-style: normal;
-
-}
 
 .profile-pic {
 	width: 200px;
@@ -253,6 +265,7 @@ h3 {
 
 .contact {
 	margin: 0;
+	font-family: eurostile, sans-serif;
 }
 
 .left-arrow {
