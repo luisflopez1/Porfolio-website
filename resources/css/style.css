@@ -169,7 +169,6 @@ h3 {
 }
 
 .about {
-	height: 460px;
 	font-family: "eurostile", sans-serif;
 	font-weight: 200;
 	font-style: normal;
@@ -187,11 +186,71 @@ h3 {
 	color: white;
 	margin: auto;
 	text-align: center;
+	background-color: #1f1f1f;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 .about p {
 	width: 75%;
 	margin: 0 auto;
+}
+
+.contact-group {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+@keyframes bounce-left {
+  0%, 50%, 100% {
+    transform: translateX(0) rotate(135deg);
+  }
+  10%, 40%, 60%, 90% {
+    transform: translateX(-10px) rotate(135deg);
+  }
+  
+}
+
+@keyframes bounce-right {
+  0%, 50%, 100% {
+    transform: translateX(0) rotate(315deg);
+  }
+  10%, 40%, 60%, 90% {
+    transform: translateX(10px) rotate(315deg);
+  }
+  
+}
+
+.right-arrow {
+	border: solid #1f1f1f;
+  	border-width: 0 5px 5px 0;
+  	padding: 3px;
+  	transform: rotate(315deg);
+  	width: 5px;
+  	height: 5px;
+  	margin-right: 20px;
+  	animation: bounce-right ease 5s infinite;
+  	display: inline-block;
+}
+
+.contact {
+	margin: 0;
+}
+
+.left-arrow {
+	border: solid #1f1f1f;
+  	border-width: 0 5px 5px 0;
+  	padding: 3px;
+  	transform: rotate(135deg);
+  	width: 5px;
+  	height: 5px;
+  	margin-left: 20px;
+  	animation: bounce-left ease 5s infinite;
+  	display: inline-block;
 }
 
 footer {
@@ -201,5 +260,5 @@ footer {
 }
 
 footer ul {
-	padding-top: 63px;
+	padding-top: 35px;
 }
