@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	box-sizing: border-box;
 	overflow-x: hidden;
 }
 
@@ -89,7 +90,7 @@ h3 {
 	animation-timing-function: linear;
 }
 
-.logo-bg {
+/*.logo-bg {
 	opacity: 50%;
 	width: 300px;
 	z-index: -3;
@@ -102,7 +103,7 @@ h3 {
 	animation-timing-function: linear;
 	filter: blur(3px);
 } 
-
+*/
 .gradient {
 	position: absolute;
 	z-index: -4;
@@ -176,9 +177,17 @@ h3 {
 
 }
 
+.profile-pic {
+	width: 200px;
+	margin: 25px auto;
+	display: block;
+}
+
 .about h2 {
 	margin-top: 95px;
 	color: white;
+	margin: auto;
+	text-align: center;
 }
 
 .about p {
