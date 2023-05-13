@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	width: 100%;
 }
 
 header {
@@ -87,7 +88,7 @@ h3 {
 	transform: rotate(325deg);
 	transform-origin: center center;
 	animation-name: rotate;
-	animation-duration: 16s;
+	animation-duration: 32s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	filter: blur(3px);
@@ -98,7 +99,7 @@ h3 {
 	z-index: -4;
 	top: 160px;
 	right: 0px;
-	width: 65%;
+	width: 75%;
 	height: 215px;
 	background-image: linear-gradient(135deg, #65A7BF,#E79663,#FE5B58,#1EEBE2 85%,#00FFF5);
 }
