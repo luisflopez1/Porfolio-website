@@ -157,8 +157,8 @@ h3 {
 
 .projects {
 	background-color: #1f1f1f;
-	height: 595px;
 	color: white;
+	padding-bottom: 70px;
 }
 
 .projects h2 {
@@ -166,6 +166,18 @@ h3 {
 	padding-top: 134px;
 	padding-left: 35px;
 	
+}
+
+.project-card {
+	height: 400px;
+	width: 80%;
+	background-color: #636363;
+	opacity: 30%;
+	border-radius: 10px;
+	margin: 40px auto 40px;
+	box-shadow: 5px 5px 5px black;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
 }
 
 .about {
