@@ -181,6 +181,10 @@ h3 {
 	color: white;
 }
 
+.about p {
+	width: 90%;
+}
+
 footer {
 	height: 135px;
 	color: white;
