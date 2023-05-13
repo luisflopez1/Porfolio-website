@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 header {
@@ -40,6 +40,14 @@ li {
 
 }
 
+@keyframes slide-in {
+	0% { transform: translateX(-100px) }
+	100% { transform: translateX(0) }
+	0% { opacity: 0 }
+	50% { opacity: 0 }
+	100% { opacity: 100% }
+}
+
 h1 {
 	font-size: 28px;
 	margin-top: 0;
@@ -49,6 +57,7 @@ h1 {
 	font-family: "organetto-variable", sans-serif;
 	font-variation-settings: "wght" 400, "wdth" 100;
 	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+	animation: slide-in ease-out .75s ;
 }
 
 h2 {
