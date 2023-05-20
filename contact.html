@@ -9,6 +9,41 @@
 	<meta charset="utf-8">
 	<title>Contact</title>
 </head>
-<body>
-	<a href="./index.html">home</a>
+<body class="c-body">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="ccontact">
+		<img src="./resources/images/stamp.png" class="stamp">
+		<h1 class="c-h1">Contact</h1>
+		<form>
+			<div class="names">
+				<div class="first-name">
+					<label for="fname">First Name</label>
+					<br>
+					<input type="text" name="fname" id="fname" value="Joe">
+				</div>
+					<br>
+					<div class="last-name">
+					<label for="lname">Last Name</label>
+					<br>
+					<input type="text" name="lname" id="lname" value="Shmoe">
+				</div>
+			</div>
+			<br>
+			<label for="email">Email</label>
+			<br>
+			<input type="text" name="email" id="email" value="joe@schmoe.com" size="44">
+			<br>
+			<br>
+			<label for="comment">Comments</label>
+			<br>
+			<textarea rows="4" cols="36" name="comment" id="comment" >Hi, can we collaborate on...</textarea>
+		</form>
+	</section>
+	
 </body>
